@@ -1,0 +1,24 @@
+Jared Scott
+I211
+Individual Homework 8
+
+
+Problem 1:
+
+The command to list all files in the current directory is ls -a.
+
+Problem 2:
+
+mv oldfile.txt newfile.txt
+
+Problem 3:
+
+cd Homework/HW_8
+
+Problem 4:
+
+chmod u+x my_work.txt
+
+Problem 5:
+
+fgrep "success" *

@@ -1,0 +1,24 @@
+CREATE TABLE Items
+(Item varchar (50) NOT NULL UNIQUE);
+
+INSERT INTO Items
+VALUES ('Computer');
+
+INSERT INTO Items
+VALUES ('iPhone');
+
+INSERT INTO Items
+VALUES ('Bicycle');
+
+INSERT INTO Items
+VALUES ('Hovercraft');
+
+INSERT INTO Items
+VALUES ('Playstation 4');
+
+CREATE TABLE Deliveries
+(DeliveryID int(11) NOT NULL UNIQUE AUTO_INCREMENT,
+Item varchar (50) NOT NULL,
+Cost int (11) DEFAULT 0,
+Method varchar (30),
+Shipping int (11) DEFAULT 10);
